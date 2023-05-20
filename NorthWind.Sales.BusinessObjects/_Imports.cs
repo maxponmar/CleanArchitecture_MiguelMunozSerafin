@@ -1,4 +1,6 @@
-﻿global using NorthWind.Sales.BusinessObjects.DTOs.CreateOrder;
+﻿global using NorthWind.Entities;
+global using NorthWind.Sales.BusinessObjects.Aggregates;
+global using NorthWind.Sales.BusinessObjects.DTOs.CreateOrder;
 global using NorthWind.Sales.BusinessObjects.Enums;
 global using NorthWind.Sales.BusinessObjects.Interfaces.Ports;
 global using NorthWind.Sales.BusinessObjects.POCOEntities;
