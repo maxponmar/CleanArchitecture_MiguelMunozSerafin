@@ -1,6 +1,6 @@
 ﻿namespace NorthWind.Sales.BusinessObjects.Interfaces.Controllers
 {
-    internal interface ICreateOrderController
+    public interface ICreateOrderController
     {
         ValueTask<int> CreateOrder(CreateOrderDTO order);
     }
